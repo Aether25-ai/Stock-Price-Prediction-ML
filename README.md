@@ -1,25 +1,16 @@
-# Stock-Price-Prediction-ML
+# Stock-Price-Prediction-ML- (using Linear Regression)
 
-## Description
-The forecasting of stock prices is a complex challenge for researchers and financial analysts. This project utilizes Machine Learning to provide a supportive system for traders and investors by identifying future market directions. Given the high interest among investors in predicting market situations for successful investment, this model offers a data-driven approach to analysis.
+## 📈 Project Overview
+Forecasting stock prices is a difficult task for researchers and analysts. This project implements a **Linear Regression** model to predict market directions for Google (GOOGL) or any other preffered stock. Because investors are highly interested in stock price prediction for successful investments, this system provides supportive information to help visualize market trends from 2024 to 2026.
 
-## Model Architecture: LSTM
+## 🧠 Model Description: How it Works
+This project uses **Supervised Learning** to identify the linear relationship between time and price.
 
+* ]**Objective**: To help traders, investors, and analysts by providing future directions of the stock market.
+* **Data Transformation**: Converts chronological dates into numerical indices to calculate the "Line of Best Fit."
+* **Algorithm**: Linear Regression ($y = mx + c$), which calculates the optimal trendline through the 2024-2025 data to forecast the start of 2026.
 
-The model utilizes **Long Short-Term Memory (LSTM)**, a specialized Recurrent Neural Network (RNN) designed for time-series forecasting. Unlike standard neural networks, LSTM has a "memory" cell that allows it to retain information from previous time steps, making it ideal for stock market data where past trends heavily influence future prices.
-
-**How it works:**
-1. **Data Ingestion:** Scrapes real-time market data from 2024 to 2026 via Yahoo Finance.
-2. **Feature Scaling:** Uses `MinMaxScaler` to normalize data for efficient gradient descent.
-3. **Sequential Processing:** The model processes a 30-day sliding window of historical prices to predict the following day's closing price.
-4. **Optimization:** Uses the `Adam` optimizer and `Mean Squared Error` loss function to minimize prediction gaps.
-
-## Features
-- **Modern Dataset:** Analyzes data specifically from 2024 to 2026.
-- **Deep Learning:** Implements a multi-layer LSTM architecture.
-- **Supportive Analytics:** Provides visualization of actual vs. predicted trends to assist in decision-making.
-
-## Implementation
-1. Open the `.ipynb` file in **Google Colab**.
-2. Install dependencies: `!pip install yfinance`.
-3. Run the notebook to generate the 2026 forecast plot.
+## 🚀 Key Features
+* **Real-Time Data**: Automatically fetches historical data via `yfinance`.
+* **Time-Series Visualization**: A customized X-axis showing actual months and years for better readability.
+* Future Situations**: Helps investors know the future situation of the market to facilitate better investment decisions.
