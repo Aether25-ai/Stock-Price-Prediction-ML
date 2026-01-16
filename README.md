@@ -1,7 +1,7 @@
 # Stock-Price-Prediction-ML
 
 ## Description
-[cite_start]The forecasting of stock prices is a complex challenge for researchers and financial analysts[cite: 3]. [cite_start]This project utilizes Machine Learning to provide a supportive system for traders and investors by identifying future market directions[cite: 6]. [cite_start]Given the high interest among investors in predicting market situations for successful investment, this model offers a data-driven approach to analysis[cite: 4, 5].
+The forecasting of stock prices is a complex challenge for researchers and financial analysts. This project utilizes Machine Learning to provide a supportive system for traders and investors by identifying future market directions. Given the high interest among investors in predicting market situations for successful investment, this model offers a data-driven approach to analysis.
 
 ## Model Architecture: LSTM
 
@@ -17,7 +17,7 @@ The model utilizes **Long Short-Term Memory (LSTM)**, a specialized Recurrent Ne
 ## Features
 - **Modern Dataset:** Analyzes data specifically from 2024 to 2026.
 - **Deep Learning:** Implements a multi-layer LSTM architecture.
-- [cite_start]**Supportive Analytics:** Provides visualization of actual vs. predicted trends to assist in decision-making[cite: 6].
+- **Supportive Analytics:** Provides visualization of actual vs. predicted trends to assist in decision-making.
 
 ## Implementation
 1. Open the `.ipynb` file in **Google Colab**.
