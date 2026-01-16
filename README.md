@@ -7,6 +7,7 @@ The art of forecasting stock prices has been a difficult task for many researche
 
 
 ##  How the Model Works
+![Stock Prediction Graph](result.png)
 Linear Regression is a fundamental machine learning algorithm used to find the linear relationship between a dependent variable (Stock Price) and an independent variable (Time).
 
 1. **Trend Identification:** The model analyzes historical data from 2024 to 2026 to find the "line of best fit."
